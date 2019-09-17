@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import navigations from './navigations';
-import MainContainer from './modules/main/MainContainer';
-import NotFoundContainer from './modules/error/NotFound'
-import DrawerNavigation from './containers/organisms/drawernav/DrawerNavigation';
+import MainContainer from './packages/main/MainContainer';
+import NotFoundContainer from './packages/error/NotFound'
+import DrawerNavigation from './containers/organisms/Navigation';
 
 const App = () => {
   return (
