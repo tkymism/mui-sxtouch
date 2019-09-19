@@ -138,7 +138,9 @@ const NavigationRoot = props => {
           navigations = {navigations}/>
         <NavigationContainer
           classes = {classes}
-          >{props.children}</NavigationContainer>
+          >
+          {props.children}
+          </NavigationContainer>
       </div>
     );
 }
